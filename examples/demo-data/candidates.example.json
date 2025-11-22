@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Maria Santos",
+      "email": "maria.santos@example.com",
+      "github": "https://github.com/maria-santos-dev",
+      "score": 95,
+      "technologies": ["Python", "FastAPI", "PostgreSQL"],
+      "location": "São Paulo, Brazil",
+      "experience_years": 6,
+      "seniority": "Senior"
+    },
+    {
+      "id": 2,
+      "name": "João Silva",
+      "email": "joao.silva@example.com",
+      "github": "https://github.com/joao-silva-dev",
+      "score": 92,
+      "technologies": ["JavaScript", "React", "Node.js"],
+      "location": "Rio de Janeiro, Brazil",
+      "experience_years": 5,
+      "seniority": "Mid-Senior"
+    }
+  ]
+}

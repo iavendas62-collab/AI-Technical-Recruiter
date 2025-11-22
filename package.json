@@ -1,0 +1,44 @@
+{
+  "name": "ai-tech-recruiter",
+  "version": "1.0.0",
+  "description": "Agentic AI recruitment automation with IBM watsonx Orchestrate",
+  "main": "index.js",
+  "scripts": {
+    "sanitize": "node scripts/sanitize.js",
+    "security-scan": "npm audit && git secrets --scan",
+    "setup-hooks": "chmod +x .githooks/pre-commit && git config core.hooksPath .githooks",
+    "validate": "npm run sanitize && npm run security-scan",
+    "prepare-publish": "npm run validate && npm run setup-hooks",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/ai-tech-recruiter.git"
+  },
+  "keywords": [
+    "ibm-watsonx",
+    "agentic-ai",
+    "recruitment",
+    "automation",
+    "n8n",
+    "telegram-bot",
+    "github-api",
+    "hackathon",
+    "ai-agent",
+    "mcp-protocol"
+  ],
+  "author": "AI Tech Recruiter Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ai-tech-recruiter/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/ai-tech-recruiter#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@gitguardian/ggshield": "^1.0.0"
+  }
+}

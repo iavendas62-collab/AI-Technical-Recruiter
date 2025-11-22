@@ -1,0 +1,408 @@
+# ============================================
+# AI Tech Recruiter - .gitignore
+# CRITICAL: Never commit sensitive data!
+# ============================================
+
+# =====================================
+# SECRETS & CREDENTIALS (NEVER COMMIT)
+# =====================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.staging
+*.env
+
+# API Keys and Tokens
+*api-key*
+*apikey*
+*api_key*
+*secret*
+*token*
+*_token
+*-token
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Credentials files
+credentials.json
+credential.json
+token.json
+refresh_token.json
+service-account.json
+config/secrets.json
+config/credentials.json
+
+# OAuth tokens
+.oauth-token
+oauth-token.json
+google-credentials.json
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+
+# =====================================
+# PERSONAL & SENSITIVE DATA
+# =====================================
+
+# Personal data
+personal/
+private/
+sensitive/
+confidential/
+
+# Database dumps
+*.sql
+*.dump
+*.backup
+
+# Logs with sensitive info
+*.log
+logs/
+*.log.*
+
+# =====================================
+# IBM CLOUD & WATSON
+# =====================================
+
+# IBM Cloud
+ibm-credentials.env
+ibmcloud-*.json
+watsonx-*.json
+
+# Watson credentials
+watson-*.json
+*watson-key*
+
+# =====================================
+# N8N WORKFLOW ENGINE
+# =====================================
+
+# n8n data
+.n8n/
+n8n_data/
+.n8n-data/
+
+# n8n SQLite database
+database.sqlite
+*.db
+
+# n8n encryption key
+n8n.encryption-key
+
+# =====================================
+# TELEGRAM BOT
+# =====================================
+
+# Telegram tokens
+telegram-token.txt
+bot-token.txt
+*telegram*token*
+
+# =====================================
+# GOOGLE SERVICES
+# =====================================
+
+# Google OAuth
+google-oauth*.json
+*google-token*
+*gmail-token*
+*calendar-token*
+
+# =====================================
+# GITHUB
+# =====================================
+
+# GitHub tokens
+*github-token*
+*gh-token*
+.github-token
+
+# =====================================
+# NODE.JS
+# =====================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.node_repl_history
+
+# =====================================
+# PYTHON
+# =====================================
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python eggs
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# =====================================
+# DOCKER
+# =====================================
+
+# Docker volumes
+docker-compose.override.yml
+.docker/
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================
+# IDEs & EDITORS
+# =====================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =====================================
+# TEMPORARY FILES
+# =====================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*-old
+*-backup
+*.cache
+
+# =====================================
+# TEST & COVERAGE
+# =====================================
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output
+*.coveragerc
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Test outputs
+test-results/
+test-output/
+
+# =====================================
+# CI/CD
+# =====================================
+
+# GitHub Actions
+.github/workflows/*.local.yml
+
+# CircleCI
+.circleci/config.local.yml
+
+# =====================================
+# DOCUMENTATION
+# =====================================
+
+# Generated docs
+docs/_build/
+site/
+
+# =====================================
+# MISC
+# =====================================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Certificates
+*.crt
+*.cer
+*.der
+
+# Config overrides
+config.local.json
+config.override.json
+
+# Local notes
+TODO.txt
+NOTES.txt
+notes.txt
+scratch.md
+
+# =====================================
+# PROJECT SPECIFIC
+# =====================================
+
+# Demo data with real info
+demo/real-data/
+examples/production/
+
+# Screenshots with sensitive data
+screenshots/production/
+prints/real/
+
+# Recordings
+recordings/
+*.mp4
+*.mov
+*.avi
+
+# =====================================
+# KEEP THESE (EXPLICITLY NOT IGNORED)
+# =====================================
+
+# Keep example files
+!.env.example
+!config.example.json
+!credentials.example.json
+
+# Keep documentation
+!README.md
+!ARCHITECTURE.md
+!API_REFERENCE.md
+!DEPLOYMENT.md
+!FAQ.md
+
+# Keep sanitized workflows
+!workflows/*.sanitized.json
+
+# Keep demo data
+!examples/demo-data/

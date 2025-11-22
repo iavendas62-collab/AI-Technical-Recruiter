@@ -1,0 +1,74 @@
+{
+  "name": "AI Tech Recruiter",
+  "description": "Agentic AI recruitment automation",
+  "model": "granite-3.1-8b-instruct",
+  "tools": [
+    "searchGitHubCandidates",
+    "sendTelegramInvitation",
+    "waitForAcceptance",
+    "scheduleInterview",
+    "sendFinalOfferEmail"
+  ]
+}
+        "seniority": "string",
+        "location": "string",
+        "min_score": "number"
+      },
+      "endpoint": "https://your-n8n-domain.com/webhook/github-search"
+    },
+    {
+      "name": "sendTelegramInvitation",
+      "description": "Send interview invitation via Telegram",
+      "parameters": {
+        "candidate_name": "string",
+        "chat_id": "string",
+        "role": "string"
+      },
+      "endpoint": "https://your-n8n-domain.com/webhook/telegram-contact"
+    },
+    {
+      "name": "waitForAcceptance",
+      "description": "Wait for candidate response (MCP callback)",
+      "parameters": {
+        "candidate_id": "string",
+        "timeout": "number"
+      },
+      "endpoint": "https://your-n8n-domain.com/webhook/wait-acceptance"
+    },
+    {
+      "name": "scheduleInterview",
+      "description": "Schedule interview in Google Calendar",
+      "parameters": {
+        "candidate_name": "string",
+        "candidate_email": "string",
+        "interview_datetime": "string"
+      },
+      "endpoint": "https://your-n8n-domain.com/webhook/schedule-interview"
+    },
+    {
+      "name": "sendFinalOfferEmail",
+      "description": "Send final offer email via Gmail",
+      "parameters": {
+        "candidate_name": "string",
+        "candidate_email": "string",
+        "final_status": "string",
+        "vaga_skill": "string"
+      },
+      "endpoint": "https://your-n8n-domain.com/webhook/send-email"
+    }
+  ],
+  "knowledge_base": {
+    "sources": [
+      "recruitment-guidelines.md",
+      "candidate-criteria.md",
+      "compliance-rules.md"
+    ]
+  },
+  "guidelines": [
+    "Always ask for human approval before contacting candidates",
+    "Wait for MCP callbacks before proceeding to next step",
+    "Use professional and respectful language",
+    "Follow LGPD and GDPR compliance rules",
+    "Never expose sensitive candidate information"
+  ]
+}
