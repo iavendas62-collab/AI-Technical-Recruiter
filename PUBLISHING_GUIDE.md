@@ -140,7 +140,7 @@ export DEMO_CHAT_ID="123456789"
 
 ```markdown
 # Antes (não funcional)
-[🎥 Watch Demo](https://youtube.com/demo)
+[🎥 Watch Demo](https://youtu.be/frlM6MyFkdg)
 
 # Depois (seu link real do YouTube)
 [🎥 Watch Demo](https://youtu.be/SEU_VIDEO_ID)
