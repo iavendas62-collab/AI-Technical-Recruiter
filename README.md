@@ -6,15 +6,13 @@
 <div align="center">
 
 ![IBM watsonx](https://img.shields.io/badge/IBM-watsonx_Orchestrate-0f62fe?style=for-the-badge&logo=ibm)
-![Hackathon](https://img.shields.io/badge/Hackathon-Agentic_AI-00c7b7?style=for-the-badge)
+![Hackathon](https://img.shields.io/badge/Hackathon-2025-00c7b7?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live_Demo-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 **Transforming Technical Recruitment with Agentic AI**
 
-*Built with IBM watsonx Orchestrate | Winner Submission 2025*
-
-[🎥 Watch Demo](https://youtube.com/demo) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [💡 Use Cases](#use-cases)
+[🎥 Watch Demo](https://youtu.be/frlM6MyFkdg) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [💡 Use Cases](#use-cases)
 
 </div>
 
@@ -64,7 +62,7 @@ Unlike traditional automation, our system uses **agentic AI** that can:
 
 ---
 
-## 🎯 Why This Matters
+## � Why This Matters
 
 ### Impact Metrics
 
@@ -556,9 +554,30 @@ Comprehensive guides for every role:
 
 ### Video Tutorials
 
-- 🎥 [5-Minute Demo](https://youtube.com/demo) - Full workflow showcase
-- 🎥 [Setup Guide](https://youtube.com/setup) - Installation walkthrough
-- 🎥 [Architecture Deep Dive](https://youtube.com/architecture) - Technical details
+- 🎥 [5-Minute Demo](https://youtu.be/frlM6MyFkdg) - Full workflow showcase
+- 🎥 [Setup Guide](https://youtu.be/frlM6MyFkdg) - Installation walkthrough
+---
+
+## 📚 Documentation
+
+Comprehensive guides for every role:
+
+- 📖 [**README.md**](./README.md) - You are here!
+- 🏗️ [**ARCHITECTURE.md**](./ARCHITECTURE.md) - Technical deep dive
+- 📡 [**API_REFERENCE.md**](./API_REFERENCE.md) - Complete API docs
+- 🚀 [**DEPLOYMENT.md**](./DEPLOYMENT.md) - Step-by-step setup
+- ❓ [**FAQ.md**](./FAQ.md) - Common questions
+- 🎤 [**PRESENTATION.md**](./PRESENTATION.md) - Demo script
+
+---
+
+## 🎓 Learning Resources
+
+### Video Tutorials
+
+- 🎥 [5-Minute Demo](https://youtu.be/frlM6MyFkdg) - Full workflow showcase
+- 🎥 [Setup Guide](https://youtu.be/frlM6MyFkdg) - Installation walkthrough
+- 🎥 [Architecture Deep Dive](https://youtu.be/frlM6MyFkdg) - Technical details
 
 ### Blog Posts
 
